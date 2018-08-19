@@ -1,0 +1,131 @@
+body {
+    //background-image: url("shopping1.jpg");
+    //background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    font-size: 1.5em;
+    //font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right,#00ff00, #00ff00);
+}
+h1, h2 {
+    color: darkred;
+    position: relative;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+   /* align-items:center;*/
+}
+
+li {
+    //color: #FFFFFF;
+    color: black;
+    list-style: square armenian;
+    paint-order: markers;
+    text-transform: none;
+    letter-spacing: normal;
+    top: initial;
+    text-align:left;
+    position:relative;
+    left:38%;
+
+}
+li {
+    position: relative;
+    width: 20%;
+    list-style-type: none;
+    font-family: Arial;
+    font-size: .875em;
+    line-height: 1.75em;
+}
+
+        li::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        margin-left: -10px;
+        width: 0;
+        height: 0;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 7px solid #FFEF4F;
+        
+    }
+
+input {
+    margin: 10px;
+    margin-right: 2px;
+    margin-left: 30px;
+    width: 20%;
+    height:25px;
+}
+
+
+.coolTitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 40px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick, -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick, -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick, -30px 20px 40px dimgrey;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+
+
+li + .delete{
+    display:inline-block;
+    position:relative;
+    /*left:50px;
+    bottom:20px;*/
+}
+button {
+    width: 35px;
+    height: 28px;
+    background-color:transparent; 
+    border: 1px;
+    cursor: pointer;
+    border: 3px solid greenyellow;
+}
+    button:hover {
+        background-color:green;
+    }
+.delete {
+    width: 35px;
+    height: 28px;
+    cursor: pointer;
+    border: 3px solid #FF2222;
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 5px;
+    position:absolute;
+    left:272px;
+}
+.delete:hover {
+    background-color:#FF2222 ;
+}
+
+.color1, .color2 {
+    margin: 1px;
+    width: 3%;
+    height: 15px;
+    padding:1px;
+}
+p{
+    color:white;
+}
